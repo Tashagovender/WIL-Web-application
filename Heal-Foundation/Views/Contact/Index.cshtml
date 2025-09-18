@@ -1,0 +1,106 @@
+﻿@{
+    ViewData["Title"] = "Contact Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            position: relative;
+            margin: 0;
+            height: 100vh;
+            text-align: center;
+            cursor: pointer; /* Show pointer cursor to indicate interactivity */
+        }
+
+            body::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-image: url('/images/hands.jpeg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                opacity: 0.5; /* Adjust the opacity for the background image */
+                z-index: -1; /* Make sure the background image stays behind the content */
+                transition: opacity 0.3s ease; /* Smooth transition for hover effect */
+            }
+
+        .contact-details {
+            display: none;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #9ec544; /* Updated background color */
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            width: 80%;
+            text-align: center;
+            font-size: 1.2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Show the contact details when hovering over the body */
+        body:hover::before {
+            opacity: 0.7; /* Darken the background image when hovering */
+        }
+
+        body:hover .contact-details {
+            display: block; /* Display the contact details on hover */
+        }
+
+        /* Map style */
+        .contact-details .map {
+            margin-top: 20px;
+            text-align: center;
+            display: none; /* Initially hidden */
+        }
+
+        /* Show map when hovering over the contact details */
+        .contact-details:hover .map {
+            display: block; /* Show map on hover */
+        }
+
+        iframe {
+            border: 0;
+            width: 100%;
+            height: 450px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Us</h1>
+
+    <div class="contact-details">
+        <p>
+            <strong>Heal Foundation</strong><br>
+            Email: <a href="mailto:HEALFOUNDATIONSA@GMAIL.COM" style="color: white;">HEALFOUNDATIONSA@GMAIL.COM</a><br>
+            Phone: <a href="tel:+27607872575" style="color: white;">0607872575</a><br>
+            Address: 87 Harbottle Road, Overport, KwaZulu Natal, South Africa<br><br>
+            Follow us on social media:<br>
+            Facebook: <a href="https://www.facebook.com/HEALFOUNDATIONSA/" target="_blank" style="color: white;">Facebook</a><br>
+            Instagram: <a href="https://www.instagram.com/healfoundationsa/" target="_blank" style="color: white;">Instagram</a>
+        </p>
+
+        <!-- Map Section inside the contact details -->
+        <div class="map">
+            <h3>Location of Heal Foundation</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.035246509278!2d30.988379515520667!3d-29.8418254819638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef7006cb8c5e77d%3A0x21e5b85d9942af30!2sArya%20Samaj%20South%20Africa%20-%20National%20Headquarters!5e0!3m2!1sen!2sza!4v1623940973170!5m2!1sen!2sza&markers=-29.8291821,31.0008731" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+

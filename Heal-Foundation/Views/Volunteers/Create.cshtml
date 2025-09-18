@@ -1,0 +1,63 @@
+﻿@model Heal_Foundation.Models.Volunteer
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+   
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body class="specific-page-background">
+    <div class="content-wrapper">
+        <h1 class="text-center" style="font-family: 'Abadi Extra Light', Arial, sans-serif;">Enter your Details to Join our Heal Team</h1>
+
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="FirstName" class="control-label"></label>
+                        <input asp-for="FirstName" class="form-control" />
+                        <span asp-validation-for="FirstName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="LastName" class="control-label"></label>
+                        <input asp-for="LastName" class="form-control" />
+                        <span asp-validation-for="LastName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ContactNumber" class="control-label"></label>
+                        <input asp-for="ContactNumber" class="form-control" />
+                        <span asp-validation-for="ContactNumber" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Message" class="control-label"></label>
+                        <input asp-for="Message" class="form-control" />
+                        <span asp-validation-for="Message" class="text-danger"></span>
+                    </div>
+                    <div class="form-group text-center">
+                        <input type="submit" value="Submit" class="btn btn-custom-green" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="custom-footer">
+        <p>Thank you for joining the Heal Team! Once you enter your details, they will be saved to the Heal Database. Your contact number will be added to a WhatsApp group where we post updates about our events.</p>
+    </footer>
+
+
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
+</html>
+

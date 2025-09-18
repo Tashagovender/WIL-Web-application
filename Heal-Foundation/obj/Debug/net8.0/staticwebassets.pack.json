@@ -1,0 +1,405 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Heal-Foundation.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Heal-Foundation.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\DonateIcon.jpeg",
+      "PackagePath": "staticwebassets\\images\\DonateIcon.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\DropOffIcon.png",
+      "PackagePath": "staticwebassets\\images\\DropOffIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\Event 1.jpg",
+      "PackagePath": "staticwebassets\\images\\Event 1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\Event 2.jpg",
+      "PackagePath": "staticwebassets\\images\\Event 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\Event 3.jpg",
+      "PackagePath": "staticwebassets\\images\\Event 3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\Event 5.jpg",
+      "PackagePath": "staticwebassets\\images\\Event 5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\Event 6.jpg",
+      "PackagePath": "staticwebassets\\images\\Event 6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\Event 8.jpg",
+      "PackagePath": "staticwebassets\\images\\Event 8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\Event 9.jpg",
+      "PackagePath": "staticwebassets\\images\\Event 9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\FacebookIcon.png",
+      "PackagePath": "staticwebassets\\images\\FacebookIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\HealOne.jpg",
+      "PackagePath": "staticwebassets\\images\\HealOne.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\HealTwo.jpg",
+      "PackagePath": "staticwebassets\\images\\HealTwo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\InstagramIcon.jpg",
+      "PackagePath": "staticwebassets\\images\\InstagramIcon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\Locations.png",
+      "PackagePath": "staticwebassets\\images\\Locations.png"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\Mission.png",
+      "PackagePath": "staticwebassets\\images\\Mission.png"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\SponsorshipIcon.png",
+      "PackagePath": "staticwebassets\\images\\SponsorshipIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\Team.jpg",
+      "PackagePath": "staticwebassets\\images\\Team.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\VBG.png",
+      "PackagePath": "staticwebassets\\images\\VBG.png"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\VolunteerIcon.png",
+      "PackagePath": "staticwebassets\\images\\VolunteerIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\animal.jpg",
+      "PackagePath": "staticwebassets\\images\\animal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\children.jpg",
+      "PackagePath": "staticwebassets\\images\\children.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\directorone.jpg",
+      "PackagePath": "staticwebassets\\images\\directorone.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\directorthree.jpg",
+      "PackagePath": "staticwebassets\\images\\directorthree.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\directortwo.jpg",
+      "PackagePath": "staticwebassets\\images\\directortwo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\environmental.jpg",
+      "PackagePath": "staticwebassets\\images\\environmental.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\hands.jpeg",
+      "PackagePath": "staticwebassets\\images\\hands.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\healdonate.jpg",
+      "PackagePath": "staticwebassets\\images\\healdonate.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\heallogo.png",
+      "PackagePath": "staticwebassets\\images\\heallogo.png"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\help.jpg",
+      "PackagePath": "staticwebassets\\images\\help.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\human.jpg",
+      "PackagePath": "staticwebassets\\images\\human.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\humanitarian1.png",
+      "PackagePath": "staticwebassets\\images\\humanitarian1.png"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\humanitarian2.png",
+      "PackagePath": "staticwebassets\\images\\humanitarian2.png"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\humanitarian3.jpg",
+      "PackagePath": "staticwebassets\\images\\humanitarian3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\humanitarian4.jpg",
+      "PackagePath": "staticwebassets\\images\\humanitarian4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\images\\user.jpeg",
+      "PackagePath": "staticwebassets\\images\\user.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tasha\\source\\repos\\Heal-Foundation\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Heal-Foundation.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Heal-Foundation.props",
+      "PackagePath": "build\\Heal-Foundation.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Heal-Foundation.props",
+      "PackagePath": "buildMultiTargeting\\Heal-Foundation.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Heal-Foundation.props",
+      "PackagePath": "buildTransitive\\Heal-Foundation.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

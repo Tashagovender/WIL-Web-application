@@ -1,0 +1,159 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .light-green-bg {
+            background-color: #d8f3dc; /* Light green color */
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 10px;
+        }
+
+        .section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .section p {
+            font-size: 1rem;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .small-img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #f7f7f7;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+
+        .small-img {
+            width: 450px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+            transition: transform 0.3s ease-out; /* Smooth transition for scaling */
+            cursor: pointer; /* Pointer cursor to indicate it's clickable */
+        }
+
+            .small-img:hover {
+                transform: scale(0.9); /* Scale down to 90% on hover */
+            }
+
+        footer {
+            background-color: #f7f7f7;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+ 
+    </style>
+</head>
+<body>
+    <div class="container">
+        @{
+            ViewData["Title"] = "Donation Page";
+        }
+
+        <h1 class="my-4 text-center">@ViewData["Title"]</h1>
+        
+        <p class="text-center">Support our cause by donating,Your contributions help us make a difference.</p>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="section light-green-bg">
+                            <h2>Bank Account Details</h2>
+                            <p style="text-align: center;">
+                                Your Donation are invaluable to the Heal Team, driving impactful change and transforming lives for a brighter future.
+                            </p>
+                            <p style="text-align: center;">
+                                Beneficiary: Arya Pratinidhi Sabha #2<br>
+                                Bank Name: First National Bank<br>
+                                Acc No: 6284 3090 292<br>
+                                Branch Name: Westville, Durban<br>
+                                Branch Code: 223526<br>
+                                Swift Code: FIRNZAJJ
+                            </p>
+
+                            <div style="text-align: center;">
+                                <img src="~/images/DonateIcon.jpeg" alt="Contact Us" class="img-fluid mb-4 small-img" style="width: 300px; height: auto;" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="section light-green-bg">
+                            <h2>Drop Off</h2>
+                            <p style="text-align: center;">
+                                Our convenient drop-off sites are designed for easy access, ensuring seamless contributions to our initiatives.
+                            </p>
+
+                            <p style="text-align: center;">
+                                142 Cherry Road, Clairwood, 4052<br>
+                                87 Harbottle Road, Overport, 4091
+                            </p>
+
+                            <div style="text-align: center;">
+                            <img src="~/images/DropOffIcon.png" alt="Contact Us" class="img-fluid mb-4 small-img" style="width: 300px; height: 400px;" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="section light-green-bg">
+                            <h2>EFT Details</h2>
+                            <p>If you choose to donate via EFT, your contribution will directly support our mission and help us continue making a positive impact</p>
+                            <p style="text-align: center;">Reference: Name+Surname+HEAL</p>
+
+                            <div style="text-align: center;">
+                                <img src="~/images/VolunteerIcon.png" alt="Contact Us" class="img-fluid mb-4 small-img" style="width: 300px; height: auto;" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="section light-green-bg">
+                            <h2>Sponsorships</h2>
+                            <p style="text-align: center;">
+                                The Heal Foundation welcomes collaborations with sponsors eager to make a meaningful impact on community welfare.
+                                As a sponsor, you'll directly impact communities through our diverse initiatives.
+                                To learn more about sponsorship benefits and how you can empower communities, contact us today.
+                            </p>
+
+                            <p style="text-align: center;">
+                                <a href="mailto:HEALFOUNDATIONSA@GMAIL.COM">HEALFOUNDATIONSA@GMAIL.COM</a>
+                            </p>
+                            <div style="text-align: center;">
+                                <img src="~/images/SponsorshipIcon.png" alt="Contact Us" class="img-fluid mb-4 small-img" style="width: 400px; height: auto;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+<script>
+    function toggleImageSize(img) {
+        img.classList.toggle('small-img-clicked');
+    }
+</script>
+    </div>
+
+    <div class="text-center">
+        <img src="~/images/healdonate.jpg" alt="Contact Us" class="img-fluid mb-4 small-img" style="width: 450px; height: auto;" />
+    </div>
+   
+
+    </div>
+
+
+</html>

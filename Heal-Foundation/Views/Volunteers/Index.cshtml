@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Heal_Foundation.Models.Volunteer>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<form id="volunteerForm">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.FirstName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.LastName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ContactNumber)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Message)
+                </th>
+                <th>Actions</th>
+                <th>Saved</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FirstName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LastName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ContactNumber)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Message)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.VolunteerID">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.VolunteerID">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.VolunteerID">Delete</a>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="savedVolunteers" value="@item.VolunteerID" />
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <button type="button" onclick="markSaved()">Mark as Saved</button>
+</form>
+
+@section Scripts {
+    <script>
+        function markSaved() {
+            var checkboxes = document.querySelectorAll('input[name="savedVolunteers"]:checked');
+            var savedIds = [];
+            checkboxes.forEach((checkbox) => {
+                savedIds.push(checkbox.value);
+            });
+            // Perform your logic here to handle the saved volunteers
+            console.log("Saved Volunteer IDs:", savedIds);
+            // You can send this data to your server or update the UI accordingly
+        }
+    </script>
+}
+

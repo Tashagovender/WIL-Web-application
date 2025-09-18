@@ -1,0 +1,146 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Welcome Heal Member";
+}
+
+<div class="container">
+    <!-- Centered Image and Title -->
+    <div style="text-align: center; margin-top: 20px;">
+        <img src="~/images/user.jpeg" alt="user" style="width: 50px; height: 50px; vertical-align: middle; margin-right: 10px;" />
+        <h1 style="display: inline-block; vertical-align: middle;">@ViewData["Title"]</h1>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer text-center" style="margin-top: 40px;">
+        <div class="row justify-content-center">
+            <div class="col-md-12 d-flex justify-content-center align-items-center flex-column">
+                <!-- Login Form -->
+                <section>
+                    <form id="account" method="post">
+                        <h2>Please use your Heal Member credentials to log in</h2>
+                        <hr />
+                        <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                            <label asp-for="Input.Email" class="form-label">Email</label>
+                            <span asp-validation-for="Input.Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="password" />
+                            <label asp-for="Input.Password" class="form-label">Password</label>
+                            <span asp-validation-for="Input.Password" class="text-danger"></span>
+                        </div>
+                        <div class="checkbox mb-3">
+                            <label asp-for="Input.RememberMe" class="form-label">
+                                <input class="form-check-input" asp-for="Input.RememberMe" />
+                                @Html.DisplayNameFor(m => m.Input.RememberMe)
+                            </label>
+                        </div>
+                        <div>
+                            <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary" style="background-color: #4c9f38; border-color: #4c9f38;">Log in</button>
+                        </div>
+                        <div>
+                            <p>
+                                <a id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
+                            </p>
+                            <p>
+                                <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a>
+                            </p>
+                            <p>
+                                <a id="resend-confirmation" asp-page="./ResendEmailConfirmation">Resend email confirmation</a>
+                            </p>
+                        </div>
+                    </form>
+                </section>
+
+                <!-- External Logins -->
+                <section>
+                    @if ((Model.ExternalLogins?.Count ?? 0) > 0)
+                    {
+                        <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                            <div>
+                                <p>
+                                    @foreach (var provider in Model.ExternalLogins!)
+                                    {
+                                        <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                                    }
+                                </p>
+                            </div>
+                        </form>
+                    }
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+<style>
+    .footer {
+        background-color: #9ec544; /* Updated green background color */
+        padding: 20px 15px; /* Reduced padding */
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: auto; /* Ensures the footer wraps around the content */
+        margin: 0 auto; /* Centers the footer */
+    }
+
+        .footer h2 {
+            color: white;
+            margin-bottom: 10px; /* Reduced margin */
+        }
+
+        .footer label,
+        .footer a {
+            color: white;
+        }
+
+    .footer {
+        text-align: center;
+        padding-bottom: 10px; /* Minimized bottom padding */
+    }
+
+        .footer .row {
+            display: flex;
+            justify-content: center;
+            margin: 0; /* No extra space in the row */
+        }
+
+    .col-md-12 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-floating {
+        margin-bottom: 12px; /* Reduced margin between fields */
+    }
+
+    .btn-primary {
+        background-color: #4c9f38;
+        border-color: #4c9f38;
+    }
+
+    .checkbox input {
+        margin-right: 10px;
+    }
+
+    .checkbox label {
+        display: inline-block;
+    }
+
+    p a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+        p a:hover {
+            text-decoration: underline;
+        }
+</style>
+

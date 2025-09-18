@@ -1,0 +1,164 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.team-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7); /* Optional: add a background for better readability */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.team-image-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+    .team-image-wrapper img {
+        width: 50%;
+        height: auto;
+    }
+
+    .team-image-wrapper:hover .team-info {
+        display: block;
+    }
+.small-img {
+    max-width: 500px;
+    height: auto;
+}
+.social-icons {
+    display: flex;
+    justify-content: center; /* Align horizontally centered */
+    gap: 20px; /* Space between icons */
+   
+    
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s;
+}
+
+    .social-icon:hover {
+        transform: scale(1.1);
+    }
+
+@font-face {
+    font-family: 'Abadi Extra Light';
+    src: url('~/fonts/AbadiExtraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.text-center {
+    font-family: 'Abadi Extra Light', Arial, sans-serif;
+}
+.specific-page-background {
+    background-image: url('/images/VBG.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Abadi Extra Light', Arial, sans-serif;
+}
+
+.content-wrapper {
+    background: rgba(255, 255, 255, 0.8); /* Optional: To make form readable */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+btn-custom-green {
+    background-color: #74A04E;
+    border-color: #74A04E;
+    color: white;
+}
+
+.btn-custom-green:hover {
+    background-color: #62903E; /* Slightly darker green for hover effect */
+    border-color: #62903E;
+}
+.custom-footer {
+    background-color: #74A04E; /* Custom green color */
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+    color: white; /* White text color for better contrast */
+    margin-top: 20px;
+    border-top: 2px solid #62903E; /* Slightly darker green border */
+}
+.light-green-bg {
+    background-color: #74A04E; /* Custom green color */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.custom-footer p {
+    color: white;
+}
+
+.custom-footer img {
+    width: 300px; /* Set default width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+light-green-bg {
+    background-color: #74A04E; /* Custom green color */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.custom-footer p {
+    color: white;
+}
+
+.custom-footer img {
+    width: 300px; /* Set default width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.custom-green-link {
+    background-color: #74A04E; /* Custom green color */
+    border-color: #74A04E; /* Custom green border color */
+    color: white; /* Text color */
+    padding: 0.375rem 0.75rem; /* Button padding */
+    font-size: 1rem; /* Button font size */
+    border-radius: 0.25rem; /* Button border radius */
+    text-align: center; /* Center text */
+    display: inline-block; /* Inline block display */
+    text-decoration: none; /* Remove underline */
+}
+
+    .custom-green-link:hover {
+        background-color: #74A04E; /* Darker green on hover */
+        border-color: #74A04E; /* Darker green border on hover */
+        color: white; /* Ensure text color stays white */
+    }
